@@ -260,7 +260,7 @@ background-color: #404bbf;
 .features-item-wrap{
 border: 1px solid #8e8f99;
     border-radius: 4px;
-    padding: 24px 100px;
+    
     background-color: #f4f4fd;
     display: flex;
     align-items: center;
@@ -333,6 +333,7 @@ border: 1px solid #8e8f99;
 }
 
 .team-item-text{
+    margin-bottom: 8px;
 }
 
 .team-subtitle, .team-item-text {
@@ -528,13 +529,13 @@ border: 1px solid #8e8f99;
 }
 
 .footer-form {
-    display: flex;
+    
     gap: 24px;
 }
 
 .footer-form-input{
     display: flex;
-    flex-direction: column;
+    
     gap: 24px;
 }
 
@@ -584,9 +585,13 @@ border: 1px solid #8e8f99;
 
 }
 
+.footer-modal-btn:hover, .footer-modal-btn:focus{
+    background-color: #404bbf;
+}
 
 .footer-field-icon{
     margin-left: 16px;
+    fill: #fff;
 }
 
 
@@ -666,7 +671,7 @@ border: 1px solid #8e8f99;
 }
 
 .modal-title {
-    margin-top: 24px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
